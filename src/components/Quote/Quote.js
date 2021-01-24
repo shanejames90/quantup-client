@@ -29,7 +29,7 @@ class Quote extends Component {
         <Card style={{ border: 'none', backgroundColor: 'rgba(0,0,0,0.05)', marginTop: '25%', marginBottom: '35%', position: 'fixed', fontSize: '12px' }}>
           <Card.Body>
             <Card.Text>
-              <p style={{ fontSize: '13px', fontStyle: 'bold', letterSpacing: '-1px', color: '#17252A' }}>&quot;{quote}&quot; - {author}</p>
+              <p style={{ fontSize: '13px', fontStyle: 'bold', letterSpacing: '-1px', color: '#DEF2F1' }}>&quot;{quote}&quot; - {author}</p>
             </Card.Text>
           </Card.Body>
         </Card>
