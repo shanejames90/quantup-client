@@ -1,3 +1,3 @@
 # QuantUp Client
 
-Engineered by React to quantup your production! 
+Engineered by React to QuantUp your production! 
