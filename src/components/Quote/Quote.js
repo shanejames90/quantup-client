@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import axios from 'axios'
 import Card from 'react-bootstrap/Card'
 
@@ -25,15 +25,15 @@ class Quote extends Component {
   render () {
     const { quote, author } = this.state
     return (
-      <Fragment>
+      <div className="col-xl-1 col-l-3  mt-5 mx-2">
         <Card style={{ border: 'none', backgroundColor: 'rgba(0,0,0,0.05)', marginTop: '25%', marginBottom: '35%', position: 'fixed', fontSize: '12px' }}>
           <Card.Body>
             <Card.Text>
-              <p style={{ fontSize: '13px', fontStyle: 'bold', letterSpacing: '-1px', color: '#DEF2F1' }}>&quot;{quote}&quot; - {author}</p>
+              <p style={{ fontSize: '13px', fontStyle: 'bold', letterSpacing: '-1px', color: '#DEF2F1', position: 'fixed' }}>&quot;{quote}&quot; - {author}</p>
             </Card.Text>
           </Card.Body>
         </Card>
-      </Fragment>
+      </div>
     )
   }
 }
